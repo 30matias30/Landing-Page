@@ -1,0 +1,243 @@
+body {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+.logo img {
+    width: 80px;
+    padding: 10px;
+    background-color: #e5e7eb;
+    border-radius: 25% 0%;
+}
+.head-link {
+    display: flex;
+    align-items: center;
+}
+.head-link div a{
+    font-size: 20px;
+    margin: 10px;
+    align-content: center;
+    text-decoration: none;
+    color: #f9faf8;
+}
+.body-one {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url(../Images/pexels-eberhard-grossgasteiger-1292301.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 0 0 5px #f9faf8, 0 0 15px #f9faf8, 0 0 30px #f9faf8;
+    
+}
+.contenedor1 {
+    display: flex;
+    width: 1500px;
+    padding: 35px;
+    background-color: rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 2em rgb(69, 69, 69) ;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    
+}
+.Singupcontainer {
+    display: flex;
+    
+}
+.Singup {
+    color: #e5e7eb;
+    text-align: center;
+    border: 0.2em solid white;
+    border-radius: 2em;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(0, 150, 250, 0.178), rgba(0, 46, 107, 0.062));
+    transition: 0.3s;
+    font-family: "kawashiro";
+
+}
+.Singup:hover {
+    transform: translateY(-3%);
+    background: linear-gradient(rgba(0, 150, 250, 0.178), rgba(0, 46, 107, 0.062));
+    box-shadow: 0 0 0.6em white;
+}
+
+.contenedor2 {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+   margin-left: 15px;
+   
+}
+.contenedor2 div {
+    margin: 10px;
+}
+.cabra1 {
+    display: flex;
+    width: 50vh;
+    margin-right: 15PX;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30%;
+    }
+.body-two {
+    background-color: #f9faf8;
+    display: flex;
+    padding: 20px;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.random{
+    display: flex;
+    width: 200px;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.imagenes1 {
+    display: flex;
+    justify-content: center;
+    }
+.imagenes1 img {
+    width: 200px;
+    height: 200px;
+    border: solid rgb(93, 140, 194) 3px;
+    border-radius: 10%;
+    
+    }
+.goat1 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.body-three {
+    display: flex;
+    background: url(../Images/69056441_911105025954870_8769554423580983296_n.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.quotes {
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    display: flex;
+    flex-flow: column wrap;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.1);
+    box-shadow: 0 0 2em rgb(69, 69, 69) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    margin: 10px;
+    text-shadow: 0 0 5px #f9faf8, 0 0 15px #f9faf8, 0 0 30px #f9faf8;
+}
+.Thor {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    text-shadow: 0 0 5px #f9faf8, 0 0 15px #f9faf8, 0 0 30px #f9faf8;
+    font-size: x-large;
+    text-align: center;
+}
+.body-four {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    
+}
+.bluebox {
+    display: flex;
+    background-color: rgb(93, 140, 194);
+    padding: 30px;
+    width: 500px;
+    height: 80px;
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+    justify-content: space-between;
+    
+}
+.bluebox div{
+    display: flex;
+    color: #f9faf8;
+    align-items: center;
+    
+}
+.columna1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.last {
+    display: flex;
+    border: solid;
+    border-radius: 25%;
+    padding: 5px;
+    height: auto;
+    width: 80px;
+    justify-content: center;
+    transition: 0.3s;
+    
+}
+.ah a{
+    display: flex;
+    text-decoration: none;
+    color: #f9faf8;
+    
+}
+.last:hover {
+    transform: translateY(-3%);
+    background: linear-gradient(rgba(0, 150, 250, 0.178), rgba(0, 46, 107, 0.062));
+    box-shadow: 0 0 0.6em white;
+}
+.action {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 700;
+}
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 20px;
+    justify-content: center;
+}
